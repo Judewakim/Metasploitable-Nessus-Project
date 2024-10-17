@@ -25,3 +25,5 @@ _________________________
 
 Do Nessus basic network scans and host discovery scans.<br>
 Do nmap scans.<br>
+<br>
+Follow up with OpenVAS for more network vulnerability scanning and OWASP ZAP and Nikto scans for web application vulnerability scanning.
