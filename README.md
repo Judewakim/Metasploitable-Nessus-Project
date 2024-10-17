@@ -1,4 +1,4 @@
-# Metasploitable-Nessus-Project
+# Metasploitable Vulnerability Assessment Project
 This project is about setting up a Metasploitable 2 virtual machine and a Kali Linux virtual machine in VirtualBox. Then doing some basic hacks on the Metasploitable VM. Then doing a Nessus scan to create a vulnerability report.
 <br><br>
 Scenario: a client asks me to do a vulnerability assessment on their network. I will first map the network, identify all devices on the network, identify open ports on each device and services/applications running on each port, then do vulnerability scans on each device in the network, then create a report to return to the client including a diagram of their network, a list of vulnerabilities on the devices in their network, and a path to fixing all the vulnerabilities.  
