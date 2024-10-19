@@ -22,7 +22,7 @@
  <br>
  -**nmap -PE -sn [ip addr]** : to discover layer 3 hosts that are up. This sends an IMCP request to each IP in the range and returns hosts that are up. This is done to limit the transmission to only the hosts that are open. The results of this scan tell you what IPs to continue scanning for. Might need root to do this. Example: "sudo nmap -PE -sn  111.222.333.444/24"
  <br>
--**nmap -PA[port num] -sn [ip addr]** : to discover layer 4 hosts that are up on port 80. This sends a TCP request to each IP in the range and returns hosts that are up. This is done to limit the transmission to only the hosts that are open. The results of this scan tell you what IPs to continue scanning for. Example: "nmap -PA80 -sn  111.222.333.444/24"
+-**nmap -PA[port num] -sn [ip addr]** : to discover layer 4 hosts that are up on the port you specify. This sends a TCP request to each IP in the range and returns hosts that are up. This is done to limit the transmission to only the hosts that are open. The results of this scan tell you what IPs to continue scanning for. Example: "nmap -PA80 -sn  111.222.333.444/24"
 <br>
 -**nmap -sV -iL [txt doc containing IPs]** : for service version detection. This attempts to determine the version of services running on open ports and uses a text file that is a list of IPs to scan. Might need root to do this. Example: "sudo nmap -sV -iL iplist.txt"
 <br>
