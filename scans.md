@@ -28,7 +28,8 @@
 <br>
 -**nmap -O -iL [txt doc containing IPs]** : for OS detection. This attempts to determine the operating system running on open ports and uses a text file that is a list of IPs to scan. This would probably be used after running the one above this to give more detail on the OS. Might need root to do this. Example: "sudo nmap -O -iL iplist.txt"
 <br>
-
+-**nmap [ip addr] -D RND: [# of decoys]** : to use decoys. This adds decoys to the scan so it's harder to identify which IP is doing the scan. If you look at a network analyzer you'll see multiple IPs addresses. Might need root to do this. Example: "sudo nmap 111.222.333.444/24 -D RND: 20"
+<br>
 
 
 <br>
